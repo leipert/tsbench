@@ -1,0 +1,32 @@
+{
+  "name": "tsbench",
+  "version": "0.0.1",
+  "description": "Generate gatling.io Tests for SPARQL-Queries",
+  "main": "generateTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Eipert <npm@leipert.io> (http://leipert.io)",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "inquirer": "^0.8.5",
+    "js-yaml": "^3.3.1",
+    "lodash": "^3.9.3",
+    "minimist": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leipert/tsbench.git"
+  },
+  "keywords": [
+    "SPARQL",
+    "benchmark"
+  ],
+  "bugs": {
+    "url": "https://github.com/leipert/tsbench/issues"
+  },
+  "homepage": "https://github.com/leipert/tsbench#readme"
+}

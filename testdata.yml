@@ -1,0 +1,17 @@
+servers:
+  - url: http://dbpedia.org/sparql?param=1&query=
+    name: dbpedia
+headers:
+  Accept-Charset: utf-8
+uriSets:
+  set1:
+    - uri: dbpedia-owl:Person
+      weight: 60
+    - uri: dbpedia-owl:City
+      weight: 40
+limit:
+  totalItems: 10
+  steps:
+    - 5
+    - 10
+

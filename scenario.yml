@@ -1,0 +1,12 @@
+name: Example Test
+queries:
+  - name: query
+    query: >-
+      SELECT * WHERE {
+        ?s a <%= $set1 %>.
+      } LIMIT <%= $limit %> OFFSET <%= $offset %>
+limit:
+  totalItems: 100
+  steps:
+    - 25
+    - 50
