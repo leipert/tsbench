@@ -1,8 +1,8 @@
 {
   "name": "tsbench",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate gatling.io Tests for SPARQL-Queries",
-  "main": "generateTest.js",
+  "main": "bin/testbench",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
